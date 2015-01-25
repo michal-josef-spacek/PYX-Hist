@@ -67,7 +67,6 @@ sub parse_handler {
 sub _end_element {
 	my ($pyx_parser_obj, $elem) = @_;
 	my $stack_ar = $pyx_parser_obj->{'non_parser_options'}->{'stack'};
-	my $out = $pyx_parser_obj->{'output_handler'};
 	if ($stack_ar->[-1] eq $elem) {
 		pop @{$stack_ar};
 	} elsif ($pyx_parser_obj->{'non_parser_options'}->{'bad_end'}) {
@@ -87,8 +86,9 @@ sub _final {
 	my $hist_hr = $pyx_parser_obj->{'non_parser_options'}->{'hist'};
 	my $max_len = length reduce { length($a) > length($b) ? $a : $b }
 		keys %{$hist_hr};
+	my $out = $pyx_parser_obj->{'output_handler'};
 	foreach my $key (sort keys %{$hist_hr}) {
-		printf "[ %-${max_len}s ] %s\n", $key, $hist_hr->{$key};
+		printf {$out} "[ %-${max_len}s ] %s\n", $key, $hist_hr->{$key};
 	}
 	return;
 }
@@ -97,7 +97,6 @@ sub _final {
 sub _start_element {
 	my ($pyx_parser_obj, $elem) = @_;
 	my $stack_ar = $pyx_parser_obj->{'non_parser_options'}->{'stack'};
-	my $out = $pyx_parser_obj->{'output_handler'};
 	push @{$stack_ar}, $elem;
 	if (! $pyx_parser_obj->{'non_parser_options'}->{'hist'}->{$elem}) {
 		$pyx_parser_obj->{'non_parser_options'}->{'hist'}->{$elem} = 1;
