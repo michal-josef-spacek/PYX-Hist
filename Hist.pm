@@ -69,7 +69,7 @@ sub _end_element {
 	my $stack_ar = $pyx_parser_obj->{'non_parser_options'}->{'stack'};
 	if ($stack_ar->[-1] eq $elem) {
 		pop @{$stack_ar};
-	} elsif ($pyx_parser_obj->{'non_parser_options'}->{'bad_end'}) {
+	} else {
 		err 'Bad end of element.',
 			'Element', $elem;
 	}
