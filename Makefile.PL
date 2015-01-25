@@ -6,7 +6,7 @@ use warnings;
 use inc::Module::Install;
 
 # Definition.
-abstract 'A perl module for PYX handling.';
+abstract 'Processing PYX data or file and print histogram.';
 author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'PYX-Hist';
