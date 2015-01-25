@@ -14,7 +14,14 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
+t/data/ex1.pyx
+t/data/ex2.pyx
+t/data/ex3.pyx
 t/PYX-Hist/00-use.t
 t/PYX-Hist/01-version.t
 t/PYX-Hist/02-pod_coverage.t
 t/PYX-Hist/03-pod.t
+t/PYX-Hist/04-new.t
+t/PYX-Hist/05-parse.t
+t/PYX-Hist/06-parse_file.t
+t/PYX-Hist/07-parse_handler.t

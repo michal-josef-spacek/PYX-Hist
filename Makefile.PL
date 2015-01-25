@@ -22,6 +22,7 @@ resources 'homepage' => 'https://github.com/tupinek/PYX-Hist';
 resources 'repository' => 'git://github.com/tupinek/PYX-Hist';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.07;
+test_requires 'IO::CaptureOutput' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 test_requires 'Test::Pod' => 0;
