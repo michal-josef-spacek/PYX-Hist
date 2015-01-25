@@ -1,6 +1,5 @@
 TODO
 ====
-1. Modul a skript pro zjisteni cetnosti.
 2. Kdyz zparsuji jeden soubor a pak druhy, nebylo by dobre cistit interni
    promenne?
 5.
@@ -12,4 +11,7 @@ OK [20150126] skim
 
 3. K cemu je 'output_handler' parameter?
 K vystupu histogramu.
+OK [20150126] skim
+
+1. Modul a skript pro zjisteni cetnosti.
 OK [20150126] skim
