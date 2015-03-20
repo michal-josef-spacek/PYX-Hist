@@ -262,6 +262,7 @@ L<PYX::Parser>.
 L<PYX>,
 L<PYX::GraphViz>,
 L<PYX::Parser>,
+L<PYX::Sort>,
 L<PYX::Stack>,
 L<PYX::Utils>,
 L<Task::PYX>.

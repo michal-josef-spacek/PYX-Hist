@@ -120,7 +120,8 @@ DEPENDENCIES
     Class::Utils, Error::Pure, List::Util, PYX::Parser.
 
 SEE ALSO
-    PYX, PYX::GraphViz, PYX::Parser, PYX::Stack, PYX::Utils, Task::PYX.
+    PYX, PYX::GraphViz, PYX::Parser, PYX::Sort, PYX::Stack, PYX::Utils,
+    Task::PYX.
 
 REPOSITORY
     <https://github.com/tupinek/PYX-Hist>
