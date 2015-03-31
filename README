@@ -120,7 +120,6 @@ DEPENDENCIES
     Class::Utils, Error::Pure, List::Util, PYX::Parser.
 
 SEE ALSO
-    PYX, PYX::GraphViz, PYX::Parser, PYX::Sort, PYX::Stack, PYX::Utils,
     Task::PYX.
 
 REPOSITORY
