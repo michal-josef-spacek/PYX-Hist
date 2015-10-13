@@ -120,7 +120,8 @@ DEPENDENCIES
     Class::Utils, Error::Pure, List::Util, PYX::Parser.
 
 SEE ALSO
-    Task::PYX.
+    Task::PYX
+        Install the PYX modules.
 
 REPOSITORY
     <https://github.com/tupinek/PYX-Hist>

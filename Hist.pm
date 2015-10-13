@@ -259,7 +259,13 @@ L<PYX::Parser>.
 
 =head1 SEE ALSO
 
-L<Task::PYX>.
+=over
+
+=item L<Task::PYX>
+
+Install the PYX modules.
+
+=back
 
 =head1 REPOSITORY
 
