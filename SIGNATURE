@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.70.
+signed via the Module::Signature module, version 0.79.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,43 +14,45 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 953e325123944789f19e9b60f8d254c4de50555f Changes
-SHA1 1931ae9814c428b1ecb285177cb6bcad6c4946bb Hist.pm
+SHA1 af0d696ed98f1818203eeafe8a8e9035ac1e2c4f Changes
+SHA1 c1b89be35b31856f54c3b21eef479c4c0c41b00d Hist.pm
 SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE
-SHA1 5e2115fca7729063048187726e833e95b541cace MANIFEST
-SHA1 d50e9da70a4363e65b801756f1f546a1508241d0 META.yml
-SHA1 fa63c46e653f77995a167c4153c951e9a5344b60 Makefile.PL
-SHA1 179df6bc99c7cc4eed3ea3558eaccd2f99ed8cc4 README
+SHA1 e51e7dbd99c4b0b74d0351bf120e658474f2d7fa MANIFEST
+SHA1 0d12b1844dba8d5dd04f07ca246094554a48f9bf META.yml
+SHA1 63f57625f3bb40d75f0807f9dfc498ca80d0b2b6 Makefile.PL
+SHA1 5c7dbb15e9ae693d1f935e3da4f2c8c6ad71bb46 README
 SHA1 8fd1ccd8ed21c9bfa4da7142c2f2bebe30f6c95f examples/ex1.pl
 SHA1 2d2bef427308e8bef1b60358576e71f3e8e62366 examples/ex2.pl
-SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
-SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
-SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
-SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
-SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
-SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
+SHA1 5c1a9d3a384a5262cbc105ab76d446047904c7fa inc/Module/Install/AuthorRequires.pm
+SHA1 d001b4b9a48395a8c4134b234a0e1789138427c5 inc/Module/Install/AuthorTests.pm
+SHA1 fe220f215f645500ce8f14ff5e19d9a28692af56 inc/Module/Install/Base.pm
+SHA1 b56ed8e42c600e08007d152cf0b1438a7c3b7f6e inc/Module/Install/Can.pm
+SHA1 99c531a17a67ce5250df2ae151cc48c80d914cde inc/Module/Install/Fetch.pm
+SHA1 76efdca3603159e0ae0e18f19fe72a0211a69529 inc/Module/Install/Makefile.pm
+SHA1 2e33e87882d60db3913da6284dd5295e5315e18a inc/Module/Install/Metadata.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
-SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
-SHA1 5781bce22da347c158e831321e8ea7fdd56f6df8 t/PYX-Hist/00-use.t
-SHA1 5b782254bdb3bb0d9ea753b91074a953ce577a64 t/PYX-Hist/01-version.t
-SHA1 393c119990bd0da0ead3997f7b4f1d20593b0fbd t/PYX-Hist/02-pod_coverage.t
-SHA1 2ff51e7d4133747db80c09c57fa01601301e8746 t/PYX-Hist/03-pod.t
-SHA1 04486ed68b18bc48d3e49d16c7102537a1f9cc47 t/PYX-Hist/04-new.t
-SHA1 07a9a5b1c60789b7610c07002c951f1359a8e809 t/PYX-Hist/05-parse.t
-SHA1 af2f63904dbb74c6f9b04de7f9d8c00f5452c0ba t/PYX-Hist/06-parse_file.t
-SHA1 37fa67b4b5d24cb761bdf77b9b5fa8d658fceeed t/PYX-Hist/07-parse_handler.t
+SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
+SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
+SHA1 5781bce22da347c158e831321e8ea7fdd56f6df8 t/PYX-Hist/01-use.t
+SHA1 91440819d7f6f743a5ed80b2323482dd7b2c8b63 t/PYX-Hist/02-version.t
+SHA1 04486ed68b18bc48d3e49d16c7102537a1f9cc47 t/PYX-Hist/03-new.t
+SHA1 07a9a5b1c60789b7610c07002c951f1359a8e809 t/PYX-Hist/04-parse.t
+SHA1 af2f63904dbb74c6f9b04de7f9d8c00f5452c0ba t/PYX-Hist/05-parse_file.t
+SHA1 37fa67b4b5d24cb761bdf77b9b5fa8d658fceeed t/PYX-Hist/06-parse_handler.t
 SHA1 2d7ec7f41694485d579447902d5afb932cf1a6c9 t/data/ex1.pyx
 SHA1 457473660c38c0587d6648146159ba11cbbc286b t/data/ex2.pyx
 SHA1 63c894e4716951f7f03fbcdb31a96f8c01310661 t/data/ex3.pyx
+SHA1 393c119990bd0da0ead3997f7b4f1d20593b0fbd xt/PYX-Hist/01-pod_coverage.t
+SHA1 2ff51e7d4133747db80c09c57fa01601301e8746 xt/PYX-Hist/02-pod.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJUzSLQAAoJEJe+XXKaIuTlWdwIAKZBjJ2u/Vqr0lLqnbvur+EE
-uNuzderi8n6M5feWP6SVFBhvV0UlO1UpR3N1R8HPpS9Xn5YdXVXnhxAcRboLkMVE
-kQ1iRnupbVveUrJju+Y/VDXjCllLJHnlrrgY8k9FKhavdImz8DN1fBHo769AACvt
-+TI/cxMuUoygAcyzYMRpYecvHWLCrpVoGGDKW8K93pfshNgaZp+vr9teO7kbAasb
-xu2yVtnlwIxQvnq6IeeoQKuS+614ZK7M51b2zwIR1bPa+ygey7sB/DZLt9Ike3Tk
-qX+XCedyYuDLF9ZCfYxz8vRedmSDnFXrW7EL6/Aoxx7gktDPvcIws+Cn+yhgT9M=
-=5oyu
+iQEcBAEBAgAGBQJWHQO1AAoJEJe+XXKaIuTl4VEH/2mSlCPtIxsLpKK8s9h7NEBt
+fSBNKAFzx8RinACu4sO7NlTBvxyGcufzNyIiEFy2pmuhCkZEZ8z8fJ6I/Lvgx0u8
+tzlwSLkfWEK/lqf7XUilfecCezgS6zA0ktGfxsBj8vtNIbTuwHZheI1K9SLNEp5s
+zM8DzWCEqX0V1GcTFWHwCvn4PDE5qjkhSInB/V/NAFnk9/t0N/7fitPqeDsLXxCX
+GzlTLzDhIHibhF3j34pHFlL1MjtmWhL2PhHyK2BI5G7jCUiavF3HL0DOMa/0wNfF
+4I5yy+/kClnZx+Vfw7WWBqbEcxdmBeXFZc25XOiha/AggNJfedB6US3GspftkO0=
+=ZbKW
 -----END PGP SIGNATURE-----
