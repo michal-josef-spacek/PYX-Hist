@@ -250,6 +250,38 @@ PYX::Hist - Processing PYX data or file and print histogram.
  # Output:
  # PYX::Hist: Stack has some elements.
 
+=head1 EXAMPLE3
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Error::Pure;
+ use PYX::Hist;
+
+ # Error output.
+ $Error::Pure::TYPE = 'PrintVar';
+
+ # Example data.
+ my $pyx = <<'END';
+ (begin
+ (middle
+ (end
+ -data
+ )end
+ )middle
+ END
+
+ # PYX::Hist object.
+ my $obj = PYX::Hist->new;
+
+ # Parse.
+ $obj->parse($pyx);
+
+ # Output:
+ # PYX::Hist: Stack has some elements.
+
 =head1 DEPENDENCIES
 
 L<Class::Utils>,
