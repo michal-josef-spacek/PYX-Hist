@@ -1,6 +1,7 @@
 0.04
  - Add EXAMPLE3 section to doc.
  - Fix EXAMPLE2 section in doc.
+ - Fix minimal version of List::Util to 1.41.
  - Update copyright years.
 
 0.03 2015-10-13T15:14:26+02:00

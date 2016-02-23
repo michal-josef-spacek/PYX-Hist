@@ -20,7 +20,7 @@ readme_from 'Hist.pm';
 recursive_author_tests('xt');
 requires 'Class::Utils' => 0.05;
 requires 'Error::Pure' => 0.16;
-requires 'List::Util' => 0;
+requires 'List::Util' => 1.41;
 requires 'PYX::Parser' => 0.02;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.

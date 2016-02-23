@@ -29,7 +29,7 @@ no_index:
 requires:
   Class::Utils: 0.05
   Error::Pure: 0.16
-  List::Util: 0
+  List::Util: 1.41
   PYX::Parser: 0.02
   perl: 5.6.0
 resources:
