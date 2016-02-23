@@ -248,7 +248,8 @@ PYX::Hist - Processing PYX data or file and print histogram.
  $obj->parse($pyx);
 
  # Output:
- # PYX::Hist: Stack has some elements.
+ # PYX::Hist: Bad end of element.
+ # Element: middle
 
 =head1 EXAMPLE3
 

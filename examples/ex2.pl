@@ -28,4 +28,5 @@ my $obj = PYX::Hist->new;
 $obj->parse($pyx);
 
 # Output:
-# PYX::Hist: Stack has some elements.
+# PYX::Hist: Bad end of element.
+# Element: middle
