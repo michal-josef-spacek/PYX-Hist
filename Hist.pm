@@ -1,16 +1,13 @@
 package PYX::Hist;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use Error::Pure qw(err);
 use List::Util qw(reduce);
 use PYX::Parser;
 
-# Version.
 our $VERSION = 0.05;
 
 # Constructor.
@@ -186,11 +183,9 @@ PYX::Hist - Processing PYX data or file and print histogram.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use PYX::Hist;
 
  # Example data.
@@ -220,11 +215,9 @@ PYX::Hist - Processing PYX data or file and print histogram.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure;
  use PYX::Hist;
 
@@ -253,11 +246,9 @@ PYX::Hist - Processing PYX data or file and print histogram.
 
 =head1 EXAMPLE3
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure;
  use PYX::Hist;
 

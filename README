@@ -53,11 +53,9 @@ ERRORS
              Stack has some elements.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use PYX::Hist;
 
      # Example data.
@@ -86,11 +84,9 @@ EXAMPLE1
      # [ middle ] 1
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Error::Pure;
      use PYX::Hist;
 
@@ -118,11 +114,9 @@ EXAMPLE2
      # Element: middle
 
 EXAMPLE3
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Error::Pure;
      use PYX::Hist;
 
