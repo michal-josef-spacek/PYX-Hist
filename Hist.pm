@@ -118,6 +118,7 @@ PYX::Hist - Processing PYX data or file and print histogram.
 =head1 SYNOPSIS
 
  use PYX::Hist;
+
  my $obj = PYX::Hist->new(%parameters);
  $obj->parse($pyx, $out);
  $obj->parse_file($input_file, $out);
