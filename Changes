@@ -1,5 +1,6 @@
 0.05
  - Update Module::Install to 1.19 version.
+ - Update author github username.
 
 0.04 2016-02-23T14:13:20+01:00
  - Add EXAMPLE3 section to doc.
