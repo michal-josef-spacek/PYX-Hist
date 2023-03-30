@@ -191,6 +191,8 @@ Returns undef.
 
 =head1 EXAMPLE1
 
+=for comment filename=hist.pl
+
  use strict;
  use warnings;
 
@@ -223,6 +225,8 @@ Returns undef.
 
 =head1 EXAMPLE2
 
+=for comment filename=hist_with_bad_end_element.pl
+
  use strict;
  use warnings;
 
@@ -253,6 +257,8 @@ Returns undef.
  # Element: middle
 
 =head1 EXAMPLE3
+
+=for comment filename=hist_with_missing_element.pl
 
  use strict;
  use warnings;
