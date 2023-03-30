@@ -8,7 +8,7 @@ use Error::Pure qw(err);
 use List::Util qw(reduce);
 use PYX::Parser;
 
-our $VERSION = 0.06;
+our $VERSION = 0.07;
 
 # Constructor.
 sub new {
@@ -323,6 +323,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.06
+0.07
 
 =cut
