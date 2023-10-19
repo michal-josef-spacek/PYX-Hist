@@ -20,6 +20,8 @@ METHODS
              Output handler.
              Default value is \*STDOUT.
 
+    Returns instance of object.
+
   "parse"
      $obj->parse($pyx, $out);
 

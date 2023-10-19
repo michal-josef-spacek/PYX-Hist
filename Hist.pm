@@ -141,6 +141,8 @@ Constructor.
 
 =back
 
+Returns instance of object.
+
 =head2 C<parse>
 
  $obj->parse($pyx, $out);
