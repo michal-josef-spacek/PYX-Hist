@@ -122,7 +122,7 @@ PYX::Hist - Processing PYX data or file and print histogram.
  my $obj = PYX::Hist->new(%parameters);
  $obj->parse($pyx, $out);
  $obj->parse_file($input_file, $out);
- $obj->parse_handle($input_file_handler, $out);
+ $obj->parse_handler($input_file_handler, $out);
 
 =head1 METHODS
 
@@ -161,7 +161,7 @@ Returns undef.
 
 =head2 C<parse_handler>
 
- $obj->parse_handle($input_file_handler, $out);
+ $obj->parse_handler($input_file_handler, $out);
 
 Parse PYX handler and print histogram of PYX input.
 If C<$out> not present, use 'output_handler'.
